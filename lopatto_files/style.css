@@ -20,7 +20,7 @@ body {
   font-style: normal;
   border: solid;
   border-width: 2px 2px 0px 2px;
-  border-color: #b4b4bc;
+  border-color: #87878d;
   border-radius: 10px 10px 0px 0px;
   background-color: white;
   padding-left: 16.65%;
@@ -36,7 +36,7 @@ body {
 .topnav {
   border-radius: 0px 0px 10px 10px;
   overflow: hidden;
-  background-color: #b4b4bc;
+  background-color: #87878d;
   padding-left:16.65%;
 }
 
@@ -98,7 +98,7 @@ body {
   border-radius: 10px;
   border: solid;
   border-width: 2px;
-  border-color: #b4b4bc;
+  border-color: #87878d;
   background-color: white;
   padding-top: 1px;
   padding-left: 20px;
