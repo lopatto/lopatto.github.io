@@ -7,8 +7,8 @@
 body {
   font-family: 'overpass';
   padding: 10px;
-  background: #f1f1f1;
-  color:#1e1e1f;
+  background: #F8F8F8;
+  color:#151515;
   font-size: 18px;
   
 }
@@ -20,7 +20,7 @@ body {
   font-style: normal;
   border: solid;
   border-width: 2px 2px 0px 2px;
-  border-color: #87878d;
+  border-color: #4B9CD3;
   border-radius: 10px 10px 0px 0px;
   background-color: white;
   padding-left: 16.65%;
@@ -36,7 +36,7 @@ body {
 .topnav {
   border-radius: 0px 0px 10px 10px;
   overflow: hidden;
-  background-color: #87878d;
+  background-color: #4B9CD3;
   padding-left:16.65%;
 }
 
@@ -57,12 +57,12 @@ body {
  text-align: center;
   padding: 2px 16px;
   text-decoration: none;
-  background-color: #03315C;
+  background-color: #13294B;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #69696d;
+  background-color: #4F758B;
   color: white;
 }
 
@@ -87,7 +87,7 @@ body {
 .rightcolumn {
   border-radius: 10px;
   float: left;
-  background-color: #f1f1f1;
+  background-color: #F8F8F8;
   padding-left: 10px;
   width: 22%;
 }
@@ -98,13 +98,16 @@ body {
   border-radius: 10px;
   border: solid;
   border-width: 2px;
-  border-color: #87878d;
+  border-color: #4B9CD3;
   background-color: white;
   padding-top: 1px;
   padding-left: 20px;
   padding-right: 10px;
   padding-bottom: 1px;
   margin-top: 10px;
+  li + li {
+  margin-top: 10px;
+}
 }
 
 
@@ -164,19 +167,19 @@ body {
 }
 
 a:link{
-color: #03315c
+color: #13294B
 }
 
 a:visited{
-color: #03315c
+color: #13294B
 }
 
 a:hover{
-color: #03315c
+color: #13294B
 }
 
 a:active{
-color: #03315c
+color: #13294B
 }
 
 a.internal:link{
@@ -194,4 +197,18 @@ color: white
 a.internal:active{
 color: white
 }
+
+span.over-under {
+    position: relative;
+    top: 1em;
+    display: inline-block;
+}
+span.over-under > .over {
+    display: table-row;
+}
+span.over-under > .under {
+    display: table-row;
+}
+
 </style>
+
